@@ -6,11 +6,14 @@ CXXFLAGS = -std=c++17 -Wall -Wextra -Iinclude
 SRC_DIR = src
 BUILD_DIR = build
 
-# Files
+# Executable name
 TARGET = a.out
 
-SRC = $(SRC_DIR)/main.cpp $(SRC_DIR)/Trie.cpp
-OBJ = $(BUILD_DIR)/main.o $(BUILD_DIR)/Trie.o
+# Source files
+SRC = $(SRC_DIR)/main.cpp $(SRC_DIR)/Trie.cpp $(SRC_DIR)/BSTTrie.cpp
+
+# Object files
+OBJ = $(BUILD_DIR)/main.o $(BUILD_DIR)/Trie.o $(BUILD_DIR)/BSTTrie.o
 
 # Default target
 all: $(TARGET)

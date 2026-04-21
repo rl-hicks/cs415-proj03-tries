@@ -416,3 +416,14 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+
+# Build directory
+build/
+
+# Executables
+a.out
+autocomplete
+
+# Object files (just in case)
+*.o
